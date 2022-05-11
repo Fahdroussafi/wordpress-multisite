@@ -1,0 +1,226 @@
+* {
+  outline: none !important;
+}
+
+a {
+  text-decoration: none;
+  outline: none !important;
+}
+
+a:focus {
+  box-shadow: none !important;
+}
+
+/* Admin notice */
+.woostify-options-notice {
+  padding: 10px !important;
+  border-left: 0;
+  clear: both;
+  position: relative;
+}
+
+.woostify-options-notice .woostify-notice-content {
+  display: flex;
+  align-items: center;
+  background-color: #faf5ef;
+  padding: 20px;
+}
+
+.woostify-options-notice .woostify-notice-img {
+  margin-left: 10px;
+  margin-right: 30px;
+  width: 50px;
+  transform: rotate(-30deg);
+}
+
+.woostify-options-notice .woostify-notice-heading {
+  font-size: 1.4em;
+}
+
+.woostify-options-notice .woostify-notice-text a {
+  font-weight: 700;
+  color: #001099;
+}
+
+.woostify-options-notice .notice-dismiss {
+  top: 5px;
+  right: 5px;
+  outline: none !important;
+  box-shadow: none !important;
+  text-decoration: none;
+  width: 40px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.woostify-options-notice.updating {
+  pointer-events: none;
+  opacity: 0.8;
+}
+
+.woostify-options-notice.updating .notice-dismiss:before {
+  content: none;
+}
+
+.woostify-options-notice.updating .spinner {
+  visibility: visible;
+}
+
+.woostify-options-notice .spinner {
+  position: absolute;
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  margin-top: 0;
+}
+
+.woostify-pro-release-notice {
+  background-color: #faf5ef;
+}
+
+/* Icon menu for Woostify Options */
+#toplevel_page_woostify-welcome .wp-menu-image:before {
+  content: url(../../../assets/images/logo.svg);
+  transform: rotate(-30deg);
+  filter: grayscale(90%);
+}
+
+/* Remove padding-left on options page */
+body[class*="woostify-welcome"] #wpcontent, body[class*="woostify-options_page"] #wpcontent {
+  padding: 0;
+}
+
+/* Style for 'Image' column in list post Admin */
+#thumbnail_image {
+  width: 60px;
+}
+
+#the-list .thumbnail_image a:focus {
+  box-shadow: none;
+}
+
+#the-list .thumbnail_image img {
+  max-width: 100%;
+}
+
+/* Woostify options page Navigation */
+.woostify-welcome-container {
+  max-width: 1140px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+.woostify-welcome-theme-brand {
+  max-width: 200px;
+}
+
+.woostify-welcome-nav {
+  background-color: #fff;
+  box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.1);
+  padding: 1.2em 0;
+}
+
+@media (max-width: 719px) {
+  .woostify-welcome-nav {
+    padding: 15px 0;
+    text-align: center;
+  }
+}
+
+@media (min-width: 720px) {
+  .woostify-welcome-nav .woostify-welcome-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+}
+
+.woostify-welcome-nav .woostify-welcome-theme-brand {
+  display: inline-flex;
+  align-items: center;
+  color: #333;
+  color: unset;
+  font-size: 1.4em;
+}
+
+@media (max-width: 719px) {
+  .woostify-welcome-nav .woostify-welcome-theme-brand {
+    border-bottom: 1px solid #f4f4f4;
+    padding-bottom: 25px;
+    margin-bottom: 15px;
+    justify-content: center;
+  }
+}
+
+.woostify-welcome-nav .woostify-welcome-theme-icon {
+  max-width: 30px;
+  max-height: 40px;
+  position: relative;
+  transform: rotate(-20deg);
+}
+
+.woostify-welcome-nav .woostify-welcome-theme-title {
+  margin: 0 10px 0 5px;
+  text-transform: uppercase;
+  font-weight: 700;
+  color: #463fba;
+}
+
+.woostify-welcome-nav .woostify-welcome-theme-version {
+  background-color: #e5e5e5;
+  border-radius: 2px;
+  padding: 3px 8px;
+  font-size: 1em;
+  color: #001099;
+}
+
+.woostify-welcome-nav .woostify-welcome-nav__version {
+  color: #fff;
+  display: inline-block;
+  padding: 0.5em 0;
+  font-weight: 700;
+}
+
+@media (max-width: 719px) {
+  .woostify-welcome-nav .woostify-welcome-nav_link {
+    margin: 0;
+  }
+}
+
+.woostify-welcome-nav .woostify-welcome-nav_link li {
+  display: inline-block;
+}
+
+.woostify-welcome-nav .woostify-welcome-nav_link li:last-of-type a {
+  padding-right: 0;
+}
+
+.woostify-welcome-nav .woostify-welcome-nav_link a {
+  text-decoration: none;
+  display: block;
+  padding: 0.5em;
+}
+
+.woostify-welcome-nav .woostify-welcome-nav_link a:hover {
+  color: #000;
+}
+
+@media (min-width: 719px) {
+  .woostify-welcome-nav .woostify-welcome-nav_link a {
+    color: #333;
+    padding: 1em;
+  }
+}
+
+.woostify-welcome-nav ul,
+.woostify-welcome-nav li {
+  list-style: none;
+  padding: 0;
+}
+
+.woostify-welcome-nav li {
+  display: inline-block;
+  margin: 0;
+}

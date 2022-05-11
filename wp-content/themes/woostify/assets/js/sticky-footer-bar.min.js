@@ -1,0 +1,1 @@
+"use strict";document.addEventListener("DOMContentLoaded",(function(){var t=0,o=document.querySelector(".woostify-sticky-footer-bar");o&&(window.onscroll=function(){var e=o.clientHeight+1,n=window.pageYOffset|document.body.scrollTop;n-5>t?o.style.bottom="-"+e+"px":n+5<t&&(o.style.bottom="0"),t=n})}));

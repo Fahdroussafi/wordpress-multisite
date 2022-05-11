@@ -1,0 +1,22 @@
+.woostify-adv-list-control.customize-control-textarea {
+	flex-direction: column;
+    align-items: flex-start;
+}
+
+.woostify-adv-list-control.customize-control-textarea label {
+	margin-bottom: 5px;
+}
+
+.adv-list-item-content .woostify-adv-list-control.customize-control-textarea .woostify-adv-list-input {
+	max-width: 100%;
+}
+.woostify-sortable-list-item-wrap .woostify-adv-list-item .sortable-item-icon-del {
+	cursor: pointer;
+}
+.adv-list-add-item-btn.button {
+	margin-top: 10px;
+}
+
+.woostify-sortable-list-item-wrap.example-item-tmpl {
+	display: none;
+}

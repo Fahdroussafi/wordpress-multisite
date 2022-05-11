@@ -1,0 +1,360 @@
+/*!
+ * Variation Swatches for WooCommerce v1.1.19 
+ * 
+ * Author: Emran Ahmed ( emran.bd.08@gmail.com ) 
+ * Date: 07/09/2021
+ * Released under the GPLv3 license.
+ */
+.button.button-danger {
+  color: #FFFFFF;
+  background-color: #AF2D2B;
+  border-color: #A62D2B;
+  box-shadow: 0 1px 0 #A72D2B;
+  vertical-align: top;
+}
+
+.button.button-danger:hover,
+.button.button-danger:focus,
+.button.button-danger:active,
+.button.button-danger.active {
+  color: #FFFFFF;
+  background: #C9302C;
+}
+
+[data-wvsdepends] {
+  display: none;
+}
+
+.meta-image-field-wrapper {
+  display: table;
+}
+
+.meta-image-field-wrapper .button {
+  margin: 5px 0;
+  display: block;
+}
+
+.meta-image-field-wrapper .image-preview {
+  display: table-cell;
+  width: 60px;
+  padding-right: 10px;
+}
+
+.meta-image-field-wrapper .button-wrapper {
+  display: table-cell;
+  vertical-align: top;
+}
+
+.gwp-rate-stars {
+  display: inline-block;
+  color: #FFB900;
+  position: relative;
+  top: 3px;
+}
+
+.gwp-rate-stars svg,
+.gwp-rate-stars svg a {
+  fill: #FFB900;
+  stroke: #FFB900;
+  cursor: pointer;
+}
+
+.gwp-rate-stars svg:hover,
+.gwp-rate-stars svg a:hover {
+  fill: #FFB900;
+}
+
+.gwp-rate-stars svg:hover ~ svg,
+.gwp-rate-stars svg:hover ~ svg a,
+.gwp-rate-stars svg a:hover ~ svg,
+.gwp-rate-stars svg a:hover ~ svg a {
+  fill: none;
+}
+
+#wvs-meta-preview {
+  width: 30px;
+}
+
+.wvs-preview {
+  width: 30px;
+  height: 30px;
+  border: #000000 1px solid;
+}
+
+#woo-variation-swatches-settings-wrap #settings-tabs {
+  margin-top: 30px;
+}
+
+#woo-variation-swatches-settings-wrap #settings-tabs h2 {
+  font-size: 1.5em;
+  margin-bottom: 10px;
+}
+
+#woo-variation-swatches-settings-wrap #settings-tabs .form-table {
+  margin-top: 15px;
+  background: #FFFFFF;
+  border-radius: 2px;
+  box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.07), 0 1px 1px rgba(0, 0, 0, 0.04);
+}
+
+#woo-variation-swatches-settings-wrap #settings-tabs .form-table tr {
+  border-bottom: 1px solid #EEEEEE;
+  display: block;
+}
+
+#woo-variation-swatches-settings-wrap #settings-tabs .form-table tr:last-child {
+  border: 0;
+}
+
+#woo-variation-swatches-settings-wrap #settings-tabs .form-table th {
+  padding: 20px 10px 20px 20px;
+}
+
+#woo-variation-swatches-settings-wrap #settings-tabs #style .form-table,
+#woo-variation-swatches-settings-wrap #settings-tabs #special .form-table {
+  margin-bottom: 30px;
+}
+
+#woo-variation-swatches-settings-wrap #tutorial .form-table tr {
+  padding: 0 !important;
+}
+
+#woo-variation-swatches-settings-wrap #tutorial .gwp-tutorials-wrapper img {
+  width: 100%;
+}
+
+#woo-variation-swatches-settings-wrap #tutorial .gwp-tutorials-wrapper ul {
+  margin: 0;
+}
+
+#woo-variation-swatches-settings-wrap #tutorial .gwp-tutorials-wrapper li {
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  padding: 50px 30px;
+  margin: 0;
+  border-bottom: 1px solid #DDDDDD;
+  position: relative;
+}
+
+#woo-variation-swatches-settings-wrap #tutorial .gwp-tutorials-wrapper li:last-child {
+  border: 0;
+}
+
+#woo-variation-swatches-settings-wrap #tutorial .gwp-tutorials-wrapper .tutorial-image-wrapper,
+#woo-variation-swatches-settings-wrap #tutorial .gwp-tutorials-wrapper .tutorial-description-wrapper {
+  float: left;
+  padding: 0 20px;
+  box-sizing: border-box;
+}
+
+#woo-variation-swatches-settings-wrap #tutorial .gwp-tutorials-wrapper .tutorial-image-wrapper {
+  width: 60%;
+}
+
+#woo-variation-swatches-settings-wrap #tutorial .gwp-tutorials-wrapper .tutorial-description-wrapper {
+  width: 40%;
+}
+
+#woo-variation-swatches-settings-wrap #tutorial .gwp-tutorials-wrapper .tutorial-description-wrapper h3 {
+  margin: 0 0 20px;
+  font-size: 1.5em;
+}
+
+#woo-variation-swatches-settings-wrap #tutorial .gwp-tutorials-wrapper .tutorial-description-wrapper .tutorial-contents {
+  font-size: 15px;
+  line-height: 1.5em;
+  margin-bottom: 20px;
+}
+
+#woo-variation-swatches-settings-wrap #tutorial .gwp-tutorials-wrapper .tutorial-description-wrapper .tutorial-buttons .button {
+  border-radius: 3px;
+  line-height: 1;
+  padding: 13px 20px;
+  font-size: 13px;
+  height: 40px;
+  box-shadow: none;
+  text-shadow: none;
+}
+
+#woo-variation-swatches-settings-wrap #tutorial .gwp-tutorials-wrapper .tutorial-description-wrapper .tutorial-buttons .button:active {
+  -webkit-transform: translateY(0);
+          transform: translateY(0);
+}
+
+#woo-variation-swatches-settings-wrap #tutorial .gwp-tutorials-wrapper .tutorial-description-wrapper .tutorial-buttons .button.button-live-demo {
+  background-color: #F44336;
+  color: #fff;
+  border: 0;
+}
+
+#woo-variation-swatches-settings-wrap #tutorial .gwp-tutorials-wrapper .tutorial-description-wrapper .tutorial-buttons .button.button-live-demo:hover {
+  background: #c71609;
+}
+
+#woo-variation-swatches-settings-wrap #tutorial .gwp-tutorials-wrapper .tutorial-description-wrapper .tutorial-buttons .button.button-docs {
+  background-color: #36373A;
+  color: #FFFFFF;
+  border: 0;
+}
+
+#woo-variation-swatches-settings-wrap #tutorial .gwp-tutorials-wrapper .tutorial-description-wrapper .tutorial-buttons .button.button-docs:hover {
+  background: #5D5E61;
+  border-color: #5D5E61;
+}
+
+#woo-variation-swatches-settings-wrap #tutorial .gwp-tutorials-wrapper .tutorial-description-wrapper .tutorial-buttons .button.button-pro {
+  background-color: #39B54A;
+  color: #FFFFFF;
+  border: 1px solid #39B54A;
+}
+
+#woo-variation-swatches-settings-wrap #tutorial .gwp-tutorials-wrapper .tutorial-description-wrapper .tutorial-buttons .button.button-pro:hover {
+  background: #3FC851;
+  border-color: #3FC851;
+}
+
+#woo-variation-swatches-settings-wrap #tutorial .gwp-tutorials-wrapper .tutorial-image-wrapper {
+  position: relative;
+}
+
+#woo-variation-swatches-settings-wrap #tutorial .gwp-tutorials-wrapper .tutorial-image-wrapper .ribbon {
+  position: absolute;
+  left: -5px;
+  top: -5px;
+  z-index: 1;
+  overflow: hidden;
+  width: 75px;
+  height: 75px;
+  text-align: right;
+  margin: 1px 22px;
+}
+
+#woo-variation-swatches-settings-wrap #tutorial .gwp-tutorials-wrapper .tutorial-image-wrapper .ribbon span {
+  font-size: 10px;
+  font-weight: bold;
+  color: #FFFFFF;
+  text-transform: uppercase;
+  text-align: center;
+  line-height: 20px;
+  -webkit-transform: rotate(-45deg);
+          transform: rotate(-45deg);
+  width: 100px;
+  display: block;
+  background: #BC0808;
+  box-shadow: 0 3px 10px -5px black;
+  position: absolute;
+  top: 19px;
+  left: -21px;
+}
+
+#woo-variation-swatches-settings-wrap #tutorial .gwp-tutorials-wrapper .tutorial-image-wrapper .ribbon span::before {
+  content: "";
+  position: absolute;
+  left: 0px;
+  top: 100%;
+  z-index: -1;
+  border-width: 3px;
+  border-style: solid;
+  border-color: #8f0808 transparent transparent #8f0808;
+}
+
+#woo-variation-swatches-settings-wrap #tutorial .gwp-tutorials-wrapper .tutorial-image-wrapper .ribbon span::after {
+  content: "";
+  position: absolute;
+  right: 0px;
+  top: 100%;
+  z-index: -1;
+  border-width: 3px;
+  border-style: solid;
+  border-color: #8f0808 #8f0808 transparent transparent;
+}
+
+#woo-variation-swatches-settings-wrap .nav-tab-wrapper [data-pro-text],
+#woo-variation-swatches-settings-wrap .nav-tab-wrapper [data-new-text] {
+  position: relative;
+}
+
+#woo-variation-swatches-settings-wrap .nav-tab-wrapper [data-pro-text]::before,
+#woo-variation-swatches-settings-wrap .nav-tab-wrapper [data-pro-text]::after,
+#woo-variation-swatches-settings-wrap .nav-tab-wrapper [data-new-text]::before,
+#woo-variation-swatches-settings-wrap .nav-tab-wrapper [data-new-text]::after {
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+  position: absolute;
+  right: 5px;
+  top: 0;
+  color: #FFFFFF;
+  font-size: 8px;
+  font-weight: normal;
+  text-transform: uppercase;
+  padding: 3px 5px;
+  line-height: 1;
+  border-radius: 10px;
+}
+
+#woo-variation-swatches-settings-wrap .nav-tab-wrapper [data-pro-text]::before {
+  content: attr(data-pro-text);
+  background: #F44336;
+}
+
+#woo-variation-swatches-settings-wrap .nav-tab-wrapper [data-new-text]::after {
+  content: attr(data-new-text);
+  background: #2196F3;
+}
+
+#woo-variation-swatches-settings-wrap .wvs-setting-tab .wvs-new-feature-tick {
+  position: relative;
+  /*transform: translateY(-50%);*/
+  right: -5px;
+  top: -2px;
+  color: #FFFFFF;
+  background: #FF5722;
+  font-size: 8px;
+  font-weight: normal;
+  text-transform: uppercase;
+  padding: 3px 5px;
+  line-height: 1;
+  border-radius: 10px;
+}
+
+#woo-variation-swatches-settings-wrap .wvs-setting-tab .description {
+  font-size: small;
+  font-style: italic;
+}
+
+.woo-variation-swatches-pro_tab.pro-inactive a {
+  background-color: var(--wc-primary);
+  color: var(--wc-content-bg);
+}
+
+.wvs-settings-field-content {
+  position: relative;
+}
+
+.wvs-show-pro-label {
+  display: block;
+}
+
+.wvs-show-pro-label span {
+  padding: 2px 4px;
+  background: #fa0000;
+  color: #fff;
+  text-transform: uppercase;
+  font-size: 9px;
+  border-radius: 2px;
+}
+
+.wvs-show-pro-contents {
+  display: inline-block;
+  color: #fa0000;
+  font-size: 11px;
+  text-transform: uppercase;
+  font-style: italic;
+  text-decoration: underline;
+  padding: 0 5px;
+}
+
+.wvs-button-wrapper .reset {
+  color: #a00;
+}

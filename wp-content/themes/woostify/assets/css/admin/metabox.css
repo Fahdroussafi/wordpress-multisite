@@ -1,0 +1,154 @@
+.gutenberg-version [id^="woostify_metabox_settings_"].closed .hndle:hover {
+  background-color: #f8f9f9;
+}
+
+.gutenberg-version [id^="woostify_metabox_settings_"] .handlediv {
+  position: relative;
+  z-index: 99;
+}
+
+.gutenberg-version [id^="woostify_metabox_settings_"] .hndle {
+  cursor: pointer;
+  color: #191e23 !important;
+  border-bottom: 0 !important;
+  transition: 0.1s background ease-in-out;
+}
+
+[id^="woostify_metabox_settings_"] .inside {
+  margin: 0 !important;
+  padding: 0 !important;
+  border-bottom: 0 !important;
+}
+
+/* Metabox option */
+.woostify-metabox-option {
+  border-bottom: 1px solid #eee;
+  padding: 15px;
+}
+
+body.old-version .woostify-metabox-option {
+  padding: 12px;
+}
+
+.woostify-metabox-option select {
+  width: 100%;
+}
+
+.woostify-metabox-option:after {
+  content: '';
+  display: block;
+  clear: both;
+}
+
+.woostify-metabox-option:last-of-type {
+  border-bottom: 0;
+}
+
+.woostify-metabox-option-title {
+  margin-bottom: 4px;
+}
+
+/* Multi select */
+.woostify-multi-selection {
+  position: relative;
+}
+
+.woostify-multi-selection .no-posts-found {
+  padding: 10px;
+  display: block;
+}
+
+.woostify-multi-selection.active .woostify-multi-select-selection {
+  border-radius: 3px 3px 0 0;
+  border-color: #aea9a9;
+  border-bottom-color: #e5e3e3;
+}
+
+.woostify-multi-selection.active .woostify-multi-select-dropdown {
+  display: block;
+  border-color: #aea9a9;
+}
+
+.woostify-multi-select-selection {
+  border-radius: 3px;
+  border: 1px solid #ddd;
+  padding: 5px 5px 0 5px;
+  min-height: 30px;
+  display: flex;
+  flex-wrap: wrap;
+  background-color: #fff;
+}
+
+.woostify-multi-select-selection .woostify-multi-select-id {
+  background-color: #f4f4f8;
+  border: 1px solid #ddd;
+  border-radius: 3px;
+  margin-bottom: 5px;
+  padding: 5px 10px;
+  margin-right: 7px;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.woostify-multi-select-selection .woostify-multi-select-search {
+  border: 0;
+  box-shadow: none;
+  flex-grow: 1;
+  margin-bottom: 5px;
+}
+
+.woostify-multi-select-selection .woostify-multi-select-search[type="text"] {
+  min-height: 25px;
+  padding: 0;
+}
+
+.woostify-multi-select-selection .woostify-multi-select-search:focus {
+  box-shadow: none;
+}
+
+.woostify-multi-select-id {
+  cursor: default;
+  word-break: break-all;
+}
+
+.woostify-multi-select-id .woostify-multi-remove-id {
+  cursor: pointer;
+}
+
+.woostify-multi-select-dropdown {
+  position: absolute;
+  z-index: 10;
+  left: 0;
+  right: 0;
+  top: 100%;
+  border: 1px solid #ddd;
+  border-top: 0;
+  background-color: #fff;
+  max-height: 145px;
+  overflow-y: scroll;
+  border-radius: 0 0 3px 3px;
+  display: none;
+}
+
+.woostify-multi-select-dropdown .woostify-multi-select-id {
+  padding: 7px 10px;
+  display: block;
+}
+
+.woostify-multi-select-dropdown .woostify-multi-select-id + .woostify-multi-select-id {
+  border-top: 1px solid #fff;
+}
+
+.woostify-multi-select-dropdown .woostify-multi-select-id.disabled {
+  background-color: #efefef;
+}
+
+.woostify-multi-select-dropdown .woostify-multi-select-id:not(.disabled):hover {
+  background-color: #fff3f3;
+}
+
+/* Remove overflow Metabox Sidebar Gutenberg */
+.wp-admin .components-panel {
+  overflow: visible;
+}

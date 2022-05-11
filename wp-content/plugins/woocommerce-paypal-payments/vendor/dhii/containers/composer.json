@@ -1,0 +1,50 @@
+{
+    "name": "dhii/containers",
+    "description": "A selection of PSR-11 containers for utility, simplicity, and ease.",
+    "type": "library",
+    "license": "MIT",
+    "keywords": [
+        "container",
+        "psr-11"
+    ],
+    "authors": [
+        {
+            "name": "Dhii Team",
+            "email": "development@dhii.co"
+        }
+    ],
+    "minimum-stability": "dev",
+    "prefer-stable": false,
+    "require": {
+        "php": "^7.1 | ^8.0",
+        "dhii/collections-interface": "^0.3.0-alpha4",
+        "container-interop/service-provider": "^0.4"
+    },
+    "require-dev": {
+        "slevomat/coding-standard": "^6.0",
+        "phpunit/phpunit": "^7.0 | ^8.0 | ^9.0",
+        "vimeo/psalm": "^4.0",
+        "gmazzap/andrew": "^1.1",
+        "psr/container": "^1.0",
+        "psr/simple-cache": "^1.0",
+        "wildwolf/psr-memory-cache": "^1.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Dhii\\Container\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Dhii\\Container\\UnitTest\\": "tests/unit",
+            "Dhii\\Container\\FuncTest\\": "tests/functional",
+            "Dhii\\Container\\SysTest\\": "tests/system",
+            "Dhii\\Container\\TestHelpers\\": "tests/helpers"
+        }
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-develop": "0.1.x-dev"
+        }
+    }
+}

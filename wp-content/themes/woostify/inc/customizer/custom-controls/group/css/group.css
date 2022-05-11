@@ -1,0 +1,79 @@
+.customize-control-woostify-group .woostify-group-control .customize-control-title {
+	display: inline-block;
+}
+
+.customize-control-woostify-group .woostify-responsive-devices {
+	float: right;
+}
+
+.customize-control-woostify-group .woostify-responsive-title-area .dashicons {
+	cursor: pointer;
+	font-size: 11px;
+	width: 20px;
+	height: 20px;
+	line-height: 20px;
+	color: #222;
+	text-align: center;
+	position: relative;
+	top: 2px;
+}
+
+.customize-control-woostify-group .woostify-responsive-title-area .dashicons.selected {
+	background: #fff;
+	color: #222;
+}
+
+.customize-control-woostify-group .woostify-group-container {
+	display: flex;
+	margin-left: -5px;
+}
+
+.customize-control-woostify-group .woostify-group-container .woostify-group-field {
+	width: 25%;
+	padding-left: 5px;
+	text-align: center;
+	text-transform: uppercase;
+}
+
+.customize-control-woostify-group .woostify-group-container .woostify-link-value-together {
+	padding-left: 5px;
+}
+
+.customize-control-woostify-group .woostify-group-container .woostify-link-value-together .woostify-link-value-together-btn {
+	height: 30px;
+	line-height: 30px;
+	font-size: 14px;
+	box-sizing: border-box;
+	border: 1px solid #3498D9;
+	background: #fff;
+	border-radius: 2px;
+	color: #3498D9;
+	margin: 0;
+	width: 30px;
+	cursor: pointer;
+}
+
+.customize-control-woostify-group .woostify-group-container .woostify-group-field .woostify-group-field-label {
+	font-size: 11px;
+	text-transform: uppercase;
+}
+
+.customize-control-woostify-group .woostify-group-container .woostify-group-field input {
+	padding: 0;
+	border-radius: 2px;
+	font-size: 12px;
+	border-color: #ddd;
+	text-align: center;
+}
+
+/* Chrome, Safari, Edge, Opera */
+.customize-control-woostify-group .woostify-group-container .woostify-group-field input::-webkit-outer-spin-button,
+.customize-control-woostify-group .woostify-group-container .woostify-group-field input::-webkit-inner-spin-button {
+	-webkit-appearance: none;
+	margin: 0;
+}
+
+/* Firefox */
+.customize-control-woostify-group .woostify-group-container .woostify-group-field input[type=number] {
+	-moz-appearance: textfield;
+}

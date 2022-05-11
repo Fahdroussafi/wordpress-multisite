@@ -1,0 +1,12 @@
+.customize-control-woostify-color .wp-picker-open+.wp-picker-input-wrap {
+	display: inline-flex;
+}
+
+.customize-control-woostify-color .woostify-color-picker-alpha.wp-color-picker {
+	max-width: 96px;
+	line-height: 17px;
+}
+
+.customize-control-woostify-color .wp-picker-clear {
+	margin-left: 2%;
+}

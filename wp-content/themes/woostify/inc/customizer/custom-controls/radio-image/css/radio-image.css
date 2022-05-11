@@ -1,0 +1,23 @@
+.customize-control-radio-image .radio-image-item {
+	margin: 0 5px 10px 0;
+	display: inline-block;
+	border: 3px solid #fcfcfc;
+	height: auto;
+	background-color: transparent;
+}
+.customize-control-radio-image input[type=radio] {
+	display: none;
+}
+.customize-control-radio-image .radio-image-item.active {
+	border-color: #5ea1ed;
+	cursor: default;
+}
+.customize-control-radio-image img {
+	display: block;
+	max-width: 80px !important;
+}
+
+/* hide section intro at `layout/header` section */
+.customize-control-header .customizer-section-intro{
+	display: none;
+}

@@ -1,0 +1,222 @@
+.woostify-sortable-list-item-wrap {
+	opacity: 0.5;
+	background: #fff;
+	color: #111;
+}
+
+.woostify-sortable-list-item-wrap:not(:first-child) {
+	margin-top: 10px;
+}
+
+.woostify-sortable-list-item-wrap.checked {
+	opacity: 1;
+}
+
+.woostify-sortable-list-item-wrap .sortable-item-icon-expand {
+	cursor: pointer;
+}
+
+.woostify-sortable-list-item-wrap .adv-list-item-content {
+	box-shadow: none;
+	background: #fff;
+	border: 1px solid #ddd;
+	border-top: none;
+	display: none;
+}
+
+.woostify-sortable-list-item-wrap .adv-list-item-content .woostify-adv-list-control:not(:first-child) {
+	border-top: 1px solid #ddd;
+}
+
+.woostify-sortable-list-item-wrap .adv-list-item-content .woostify-adv-list-control {
+	padding: 15px 15px 0;
+	margin-bottom: 15px;
+	position: relative;
+}
+
+.woostify-sortable-list-item-wrap .woostify-adv-list-item {
+	border-color: #ddd;
+	margin: 0;
+	padding: 0;
+	height: 35px;
+}
+
+.woostify-sortable-list-item-wrap .woostify-adv-list-item * {
+	color: inherit;
+}
+
+.woostify-sortable-list-item-wrap .woostify-adv-list-item .dashicons {
+	height: 35px;
+	line-height: 35px;
+	width: 35px;
+	border-right: 1px solid #ddd;
+	font-size: 16px;
+}
+
+.woostify-sortable-list-item-wrap .woostify-adv-list-item .dashicons.sortable-item-icon-expand {
+	border-left: 1px solid #ddd;
+	border-right: none;
+}
+
+.woostify-sortable-list-item-wrap .woostify-adv-list-item .sortable-item-name {
+	font-weight: 500;
+}
+
+.woostify-sortable-list-item-wrap.checked .adv-list-item-content label {
+	font-weight: 500;
+}
+
+.woostify-sortable-list-item-wrap .adv-list-item-content .woostify-adv-list-input {
+	border-color: #ddd;
+	max-width: 130px;
+}
+
+.woostify-adv-list-control {
+	margin-top: 7px;
+}
+
+.woostify-adv-list-control:first-child {
+	margin-top: 0;
+}
+
+.woostify-adv-list-control {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.woostify-adv-list-control.control-block {
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+}
+
+.woostify-adv-list-control.control-block label {
+	margin-bottom: 5px;
+}
+.woostify-adv-list-control.control-block .woostify-adv-list-input {
+	width: 100%;
+	max-width: 100%;
+}
+
+.woostify-adv-list-control.type-field select {
+	max-width: 130px;
+}
+
+.woostify-adv-list-control.hide {
+	display: none;
+}
+
+.woostify-adv-list-control .icon-prev {
+	display: flex;
+	align-items: center;
+}
+
+.woostify-adv-list-control .icon-prev img {
+	width: 32px;
+	height: auto;
+}
+
+.woostify-adv-list-control .icon-prev.hide {
+	display: none;
+}
+
+.woostify-adv-list-control .icon-prev .woostify-icon-remove-btn {
+	cursor: pointer;
+}
+
+.woostify-control-desc {
+	font-size: 12px;
+	font-weight: 400;
+	display: block;
+	font-style: italic;
+	color: #8f8f8f;
+}
+
+.woostify-sortable-list-item-wrap .adv-list-item-content .woostify-adv-list-control.icon-field label {
+	margin: 0;
+}
+
+.woostify-sortable-list-item-wrap .adv-list-item-content .woostify-adv-list-control.icon-field .select-icon-act {
+	display: flex;
+	align-items: center;
+	position: absolute;
+	right: 15px;
+	top: 11px;
+}
+
+.woostify-sortable-list-item-wrap .adv-list-item-content .woostify-adv-list-control.icon-field .select-icon-act span {
+	display: block;
+}
+
+.woostify-sortable-list-item-wrap .adv-list-item-content .woostify-adv-list-control.icon-field .select-icon-act span:not(:last-child) {
+	margin-right: 8px;
+}
+
+.woostify-sortable-list-item-wrap .adv-list-item-content .woostify-adv-list-control.icon-field .selected-icon {
+	background: #f0f0f0;
+	padding: 5px;
+	border-radius: 3px;
+}
+
+.woostify-sortable-list-item-wrap .adv-list-item-content .woostify-adv-list-control.icon-field .open-icon-list {
+	border: 1px solid #3498D9;
+	font-size: 12px;
+	padding: 2px 5px;
+	cursor: pointer;
+	color: #2271b1;
+	border-radius: 3px;
+}
+
+.woostify-sortable-list-item-wrap .adv-list-item-content .woostify-adv-list-control.icon-field .remove-icon {
+	font-size: 12px;
+	text-decoration: underline;
+	color: #3498D9;
+	cursor: pointer;
+}
+
+.woostify-sortable-list-item-wrap .adv-list-item-content .woostify-adv-list-control.icon-field .selected-icon svg {
+	display: block;
+}
+
+.woostify-sortable-list-item-wrap .adv-list-item-content .woostify-adv-list-control.icon-field .icon-list {
+	max-width: 100%;
+	width: 100%;
+	box-sizing: border-box;
+	border: 1px solid #ddd;
+	border-radius: 3px;
+	margin-top: 10px;
+	display: none;
+}
+
+.woostify-sortable-list-item-wrap .adv-list-item-content .woostify-adv-list-control.icon-field .icon-list__search {
+	padding: 10px 10px 0;
+}
+
+.woostify-sortable-list-item-wrap .adv-list-item-content .woostify-adv-list-control.icon-field .icon-list-wrap {
+	display: grid;
+	grid-gap: 15px;
+	grid-template-columns: 20% 20% 20% 20%;
+	padding: 10px;
+	text-align: center;
+	margin-top: 10px;
+	border-top: 1px solid #ddd;
+	max-height: 200px;
+	overflow-y: auto;
+}
+
+.woostify-sortable-list-item-wrap .adv-list-item-content .woostify-adv-list-control.icon-field .icon-list-wrap .icon-list__icon {
+	cursor: pointer;
+	padding: 5px;
+	border-radius: 3px;
+}
+
+.woostify-sortable-list-item-wrap .adv-list-item-content .woostify-adv-list-control.icon-field .icon-list-wrap .icon-list__icon:hover,
+.woostify-sortable-list-item-wrap .adv-list-item-content .woostify-adv-list-control.icon-field .icon-list-wrap .icon-list__icon.active {
+	background: #f0f0f0;
+}
+
+.woostify-sortable-list-item-wrap .adv-list-item-content .woostify-adv-list-control.icon-field .icon-list-wrap .icon-list__icon svg {
+	display: block;
+	margin: 0 auto;
+}

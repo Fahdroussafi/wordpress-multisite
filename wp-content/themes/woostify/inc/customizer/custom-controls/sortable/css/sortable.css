@@ -1,0 +1,57 @@
+.woostify-sortable-control-list {
+	position: relative !important;
+}
+
+.woostify-sortable-list-item {
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+	padding: 5px 10px;
+	margin-top: 7px;
+	cursor: move;
+	background-color: #fafafa;
+}
+
+.woostify-sortable-list-item {
+	border: 1px dashed #ccc;
+}
+
+.woostify-sortable-list-item * {
+	color: #aaa
+}
+
+.woostify-sortable-list-item.checked {
+	border-style: solid;
+	border-color: #333;
+	background-color: #fff;
+}
+
+.woostify-sortable-list-item.checked * {
+	color: #686868;
+}
+
+.sortable-item-name {
+	flex-grow: 1;
+	margin-left: 15px;
+	margin-right: 10px;
+	pointer-events: none;
+}
+
+.sortable-item-icon-drag {
+	pointer-events: none;
+}
+
+.woostify-sortable-list-item.active{
+	visibility: hidden;
+}
+
+.woostify-sortable-control-list .dragging{
+	margin-top: 0;
+	box-sizing: border-box;
+	position: absolute;
+	z-index: 999;
+}
+
+.woostify-sortable-control-list .sortable-item-input {
+	display: none;
+}
